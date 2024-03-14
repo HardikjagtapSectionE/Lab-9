@@ -1,0 +1,206 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    background-color: rgba(233, 198, 238, 0.849);
+    background-size: cover; 
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.box {
+    width: 250px;
+    height: 250px;
+    color: white;
+    font-size: 48px;
+    margin: 20px;
+    border: 2px black;
+}
+h1{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 45px;
+    font-family: "Satisfy", cursive;
+    font-weight: 600;
+    font-style: normal;
+    color: #000066;
+}
+
+.button {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center; 
+}
+
+#show-all {
+    display: inline-block;
+    margin-top: 30px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: #000066;
+    border: 1px solid #000066;
+    padding: 12px 34px;
+    font-size: 22px;
+    font-family: "Satisfy", cursive;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  
+  #show-all:hover {
+    border: 1px solid #b2244b;
+    background: #b2244b;
+    transition: 0.3s;
+    color: rgb(255, 255, 255);
+  }
+
+#show-cars {
+    display: inline-block;
+    margin-top: 30px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: #000066;
+    border: 1px solid #000066;
+    padding: 12px 34px;
+    font-size: 22px;
+    font-family: "Satisfy", cursive;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  
+  #show-cars:hover {
+    border: 1px solid #b2244b;
+    background: #b2244b;
+    transition: 0.3s;
+    color: rgb(255, 255, 255);
+  }
+
+  #show-bikes {
+    display: inline-block;
+    margin-top: 30px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: #000066;
+    border: 1px solid #000066;
+    padding: 12px 34px;
+    font-size: 22px;
+    font-family: "Satisfy", cursive;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  
+  #show-bikes:hover {
+    border: 1px solid #b2244b;
+    background: #b2244b;
+    transition: 0.3s;
+    color: rgb(255, 255, 255);
+  }
+
+  #show-bikes {
+    display: inline-block;
+    margin-top: 30px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: #000066;
+    border: 1px solid #000066;
+    padding: 12px 34px;
+    font-size: 22px;
+    font-family: "Satisfy", cursive;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 50px;
+  }
+  
+  #show-bikes:hover {
+    border: 1px solid #b2244b;
+    background: #b2244b;
+    transition: 0.3s;
+    color: rgb(255, 255, 255);
+  }
+
+  #show-bus {
+    display: inline-block;
+    margin-top: 30px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: #000066;
+    border: 1px solid #000066;
+    padding: 12px 34px;
+    font-size: 22px;
+    font-family: "Satisfy", cursive;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  
+  #show-bus:hover {
+    border: 1px solid #b2244b;
+    background: #b2244b;
+    transition: 0.3s;
+    color: rgb(255, 255, 255);
+  }
+
+img{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+}
+img:hover{
+    transform: scale(1.05);
+}
+
+#lightbox-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); 
+    z-index: 999;
+}
+
+#lightbox-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%; 
+    height: 80%; 
+    max-width: 800px; 
+    max-height: 600px; 
+}
+
+#lightbox-image {
+    width: 100%; 
+    height: 100%; 
+    display: block;
+    margin: 0 auto;
+}
+
+#lightbox-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+}
